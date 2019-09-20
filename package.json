@@ -1,0 +1,24 @@
+{
+  "name": "google-geo-decoder",
+  "version": "1.0.0",
+  "description": "Simple google geo decoder.",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kurakste/google-geo-decoder.git"
+  },
+  "keywords": [
+    "google",
+    "geo",
+    "decoder"
+  ],
+  "author": "kurakste",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kurakste/google-geo-decoder/issues"
+  },
+  "homepage": "https://github.com/kurakste/google-geo-decoder#readme"
+}
