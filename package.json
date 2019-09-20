@@ -20,5 +20,12 @@
   "bugs": {
     "url": "https://github.com/kurakste/google-geo-decoder/issues"
   },
-  "homepage": "https://github.com/kurakste/google-geo-decoder#readme"
+  "homepage": "https://github.com/kurakste/google-geo-decoder#readme",
+  "dependencies": {
+    "eslint": "^6.4.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "jest": "^24.9.0"
+  }
 }
