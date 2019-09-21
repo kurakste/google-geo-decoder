@@ -7,7 +7,6 @@ const key = process.env.GGKEY;
 
 if (!key) throw new Error('Google map key doesn\'t found.');
 
-
 const locations = [
   { name: 'nizhnekamsk', loc: [55.635270, 51.808362] },
   { name: 'kazan', loc: [55.819027, 49.050113] },
@@ -21,7 +20,6 @@ const locations = [
   { name: 'Volgograd city', loc: [48.720049, 44.538024] },
 ];
 
-
 async function main() {
   for (let i = 0; i < locations.length; i += 1) {
     const [lon, lat] = locations[i].loc;
@@ -34,14 +32,6 @@ async function main() {
     console.log(a[0].short_name);
   }
 
-
-  // for (let i = 0; i < locations.length; i += 1) {
-  //   const [lon, lat] = locations[i].loc;
-  //   const resp = await geoDecoder(lon, lat, key);
-  //   const addr = resp.data.results[0].formatted_address;
-  //   const addrArray = addr.split(',');
-  //   console.log(`${locations[i].name} : ${addrArray[addrArray.length - 1]}`);
-  // }
 }
 
 main();
