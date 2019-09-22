@@ -22,6 +22,8 @@
   },
   "homepage": "https://github.com/kurakste/google-geo-decoder#readme",
   "dependencies": {
+  },
+  "devDependencies": {
     "dotenv": "^8.1.0",
     "eslint": "^6.4.0",
     "eslint-config-airbnb-base": "^14.0.0",
