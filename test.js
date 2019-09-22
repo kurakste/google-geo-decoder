@@ -20,10 +20,8 @@ const locations = [
   { name: 'Volgograd city', loc: [48.720049, 44.538024] },
 ];
 
-
-
 async function main() {
-  const respBunch = locations.map((el, i) => {
+  const respBunch = locations.map(el => {
     const [lon, lat] = el.loc;
     return geoDecoder(lon, lat, key);
   });
