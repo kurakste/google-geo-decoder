@@ -8,7 +8,7 @@ const key = process.env.GGKEY;
 if (!key) throw new Error('Google map key doesn\'t found.');
 
 const locations = [
-  { name: 'nizhnekamsk', loc: [55.635270, 51.808362] },
+  { name: 'Nizhnekamsk', loc: [55.635270, 51.808362] },
   // { name: 'kazan', loc: [55.819027, 49.050113] },
   // { name: 'road tatarstan', loc: [55.664437, 49.854521] },
   // { name: 'road tatarstan', loc: [55.229049, 50.898795] },
