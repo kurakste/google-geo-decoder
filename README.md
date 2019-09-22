@@ -9,6 +9,8 @@ $ npm install google-geo-decoder
 ## Getting started
 
 ```
+const decoder = require('google-geo-decoder');
+
 const [lon, lat] = [55.635270, 51.808362];
 const key = process.env.GGKEY; // You google API key.
 const res = geoDecoder(lon, lat, key));
