@@ -21,5 +21,6 @@ returns:
     lev2: "Gorod Kazan'",
     lev3: 'Kirovskiy',
     route: "Ulitsa Muzykal'naya",
+    streetNumber: '49',
   }
 ```
