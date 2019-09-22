@@ -20,18 +20,15 @@ const locations = [
   { name: 'Volgograd city', loc: [48.720049, 44.538024] },
 ];
 
+
+
 async function main() {
-  for (let i = 0; i < locations.length; i += 1) {
-    const [lon, lat] = locations[i].loc;
-    const resp = await geoDecoder(lon, lat, key);
-    const tmp = resp.data.results[0].address_components;
-    const a = tmp
-      .filter(el => el
-        .types.indexOf('administrative_area_level_1') !== -1);
-
-    console.log(a[0].short_name);
-  }
-
+  const respBunch = locations.map((el, i) => {
+    const [lon, lat] = el.loc;
+    return geoDecoder(lon, lat, key);
+  });
+  const result = await Promise.all(respBunch);
+  console.log(result);
 }
 
 main();
