@@ -15,7 +15,12 @@
     "geo",
     "decoder",
     "map",
-    "coordinates"
+    "coordinates",
+    "reversegeocode",
+    "geocoder",
+    "reverse",
+    "zipcode"
+
   ],
   "author": "kurakste",
   "license": "MIT",
