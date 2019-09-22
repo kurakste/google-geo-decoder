@@ -13,7 +13,9 @@
   "keywords": [
     "google",
     "geo",
-    "decoder"
+    "decoder",
+    "map",
+    "coordinates"
   ],
   "author": "kurakste",
   "license": "MIT",
