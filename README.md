@@ -1,6 +1,6 @@
 # Simple google geo decoder.
   Just helper for google geo decoder.
-  It gets coordinate and returns address object.
+  It gets coordinate and returns the address.
 
 ## Installation
 
